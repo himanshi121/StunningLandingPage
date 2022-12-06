@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+#nav_bar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    
+ 
+}
+#main{
+    display: flex;
+}
+#landing{
+    width:100%;
+    height: 75%;
+    justify-content: right;
+    margin-top: 30px;
+
+}
+#logo{
+    justify-content: flex-start;
+    
+    
+}
+img{
+    height:50px;
+    margin-left: 30px;
+    width:100%
+    
+
+}
+#menuitems{
+    display:flex;
+    justify-content: space-around;
+    width:20%;
+    color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+}
+#button{
+    border-radius: 14px;
+    color: #5243c0;
+    border: 0ch;
+    width:8%;
+    text-align: center;
+    margin-right: 80px;
+    height: 45px;
+    margin-top: 8px;
+     text-decoration: none;
+    background-color: #FFD8DB;
+   
+}
+#item:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid#8071D0 ;
+}
+#content{
+    width:40%;
+   
+}
+#stunning_text1{
+    font-size:70px;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-weight: 1000px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+#stunning_text2{
+    font-size:70px;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 1000px;
+    padding-top:0px;
+    
+}
+.square{
+    width: 10px;
+    height: 10px;
+    color: #6155c5;
+    margin: 0px;
+}
+#with_stunning_text{
+    margin-left: 150px;
+    width:70%;
+    margin-bottom: 25px;
+    color:rgba(0,0,0,0.8);
+
+}
+#Accounticon{
+    display: flex;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+#newaccount{
+    border: 0ch;
+    color: #ffffff;
+    border-radius: 14px;
+    width:30%;
+    height: 45px;
+    background-color: #5243C0;
+    
+}
+
+#arrow1{
+    height: 45px;
+    margin-left:5px;
+}
+#arrow2{
+    height: 45px;
+    margin-left:10px;
+}
+#Accounts_container{
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+#container1{
+    display:flex;
+    width:80%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 0px 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.03);
+    height:40px;
+   
+}
+.tick{
+    width:100%;
+    height:30px;
+    margin-left: 3px;
+    margin-top: 4px;
+
+}
+#accicon{
+    width:100%;
+    height:30px;
+    margin-top: 4px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#text{
+    padding-top: 8px;
+    padding-left: 0px;
+    justify-content: left;
+    width:35%
+}
+#date{
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+    padding-top: 10px;
+}
+#bluetick{
+   
+    display:none;
+}
+
+#container1:hover{
+    box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition: transform 400ms linear;
+}
+
+#container1:hover #graytick{
+    display: none;
+}
+
+#container1:hover #bluetick{
+    display: block;
+}
+#color1{
+    width: 20px;
+    height: 10px;
+    margin-top:6px;
+    background-color: #FED7DA;
+    border-radius: 10px;
+    margin-right: 5px;
+    
+}
+#color2{
+    width: 20px;
+    height: 10px;
+    margin-top:6px;
+    background-color:#FD6534;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#color3{
+    width: 20px;
+    height: 10px;
+    margin-top:6px;
+    background-color: #9ED095;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#color4{
+    width: 20px;
+    height: 10px;
+    margin-top:6px;
+    background-color: #FFE4A0;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#colorBox{
+    position: relative;
+    top: 10px;
+}
